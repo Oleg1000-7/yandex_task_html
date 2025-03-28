@@ -1,6 +1,3 @@
-h2 {
-    text-align: center;
-}
 h4 {
     color: #8f8f8f;
 }
@@ -9,4 +6,7 @@ li {
 }
 .error-text {
     color: #ff2200
+}
+.centered-text {
+    text-align: center;
 }

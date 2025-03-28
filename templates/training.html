@@ -2,7 +2,7 @@
 
 {% block content %}
     {% if "инженер" in prof or "строитель" in prof %}
-        <h2>Инженерные тренажеры</h2>
+        <h2 class="centered-text">Инженерные тренажеры</h2>
         <img src="{{ url_for('static', filename='images/spaceship1.png') }}">
     {% else %}
         <h2>Научные симуляторы</h2>
