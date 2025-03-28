@@ -4,6 +4,9 @@ h2 {
 h4 {
     color: #8f8f8f;
 }
+li {
+    padding-bottom: 5px;
+}
 .error-text {
     color: #ff2200
 }
