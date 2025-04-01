@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <p class="answer-line">Фамилия:{{ answers["surname"] }}</p>
-    <p class="answer-line">Имя:{{ answers["name"] }}</p>
-    <p class="answer-line">Образование:{{ answers["education"] }}</p>
-    <p class="answer-line">Профессия:{{ answers["profession"] }}</p>
-    <p class="answer-line">Пол:{{ answers["sex"] }}</p>
-    <p class="answer-line">Мотивация:{{ answers["motivation"] }}</p>
-    <p class="answer-line">Готовы остаться на Марсе?:{{ answers["ready"] }}</p>
-
+<div class="answer-block">
+    <p>Фамилия:{{ answers["surname"] }}</p>
+    <p>Имя:{{ answers["name"] }}</p>
+    <p>Образование:{{ answers["education"] }}</p>
+    <p>Профессия:{{ answers["profession"] }}</p>
+    <p>Пол:{{ answers["sex"] }}</p>
+    <p>Мотивация:{{ answers["motivation"] }}</p>
+    <p>Готовы остаться на Марсе?:{{ answers["ready"] }}</p>
+</div>
 {% endblock %}

@@ -17,8 +17,8 @@ h4 {
 .centered-text {
     text-align: center;
 }
-.answer-line {
-    padding-left: 25px;
+.answer-block {
+    padding-left: 50px;
 }
 .head {
     background-color: #e5e5e5;
